@@ -1,0 +1,48 @@
+body{
+    background-color: #360369;
+    color: white;
+}
+.welcome{
+    margin-left: 8px;
+}
+p{
+    color: gray;
+}
+.fetch{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20%;
+}
+.loc{
+    display: flex;
+}
+iframe{
+    width: 95%;
+    height:95vh;
+    margin:12px 10px 35px 10px;
+}
+.loc h3{
+    background-color: #270846;
+    padding: 2%;
+    color: white;
+    margin: 2%;
+    width: 200px;
+}
+.fetch button{
+    cursor: pointer;
+    padding: .5rem;
+    width: 10rem;
+}
+.weather{
+    display: flex;
+    align-items:baseline;
+    flex-wrap: wrap;
+}
+.weather h3{
+    background-color: #360369;
+    padding: 1%;
+    color: white;
+    margin: 0.5%;
+}
