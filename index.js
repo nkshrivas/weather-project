@@ -26,7 +26,7 @@
                     <iframe src="https://maps.google.com/maps?q=${latitude},${longitude}&hl=es;z=14&amp;output=embed"></iframe>
                 `;
 
-                const url = `http://api.weatherapi.com/v1/current.json?key=7ef8b2e496d3490181d125612230309&q=${latitude},${longitude}`;
+                const url = `https://api.weatherapi.com/v1/current.json?key=7ef8b2e496d3490181d125612230309&q=${latitude},${longitude}`;
                 const response = await fetch(url);
                 if (!response.ok) {
                     throw new Error(`Weather data fetch failed with status ${response.status}`);
